@@ -1,4 +1,3 @@
-version: 3.0
 organization: IT
 product: argo-cd
 repo_types: [InternalClient]
