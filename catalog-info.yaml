@@ -10,29 +10,3 @@ spec:
   lifecycle: "production"
   owner: "skip"
   system: "skip"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Group"
-metadata:
-  name: "security_champion_argo-landing"
-  title: "Security Champion argo-landing"
-spec:
-  type: "security_champion"
-  parent: "it_security_champions"
-  members:
-  - "omaen"
-  children:
-  - "resource:argo-landing"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Resource"
-metadata:
-  name: "argo-landing"
-  links:
-  - url: "https://github.com/kartverket/argo-landing"
-    title: "argo-landing på GitHub"
-spec:
-  type: "repo"
-  owner: "security_champion_argo-landing"
-  dependencyOf:
-  - "component:argo-landing"
