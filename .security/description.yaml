@@ -1,4 +1,0 @@
-organization: IT
-product: argo-cd
-repo_types: [InternalClient]
-platforms: [SKIP]
